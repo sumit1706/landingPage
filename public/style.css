@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:red;
+}
+#head{
+    text-align: center;
+}
+@media screen and (min-width: 900px) {
+    .logo{
+        text-align: center;
+        padding : 20px;
+        color: white;
+        background-color: black;
+        font-size : 50px;
+    }
+    form input{
+        margin-top : 5px;
+        margin-bottom: 5px;
+        margin-left: 40%;
+    }
+    #description{
+        background-color: rgb(12, 11, 11);
+        color: aqua;
+        padding : 10px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+    .desc1{
+        margin-right: 400px;
+        margin-top: 20px;
+        border: 1px solid aqua;
+        padding: 20px;
+    }
+    .desc2{
+        margin-left: 400px;
+        border: 1px solid aqua;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .specs{
+        padding-left: 100px;
+        padding-right:100px;
+    }
+    #left{
+        background-image: url("./img/i7.jpg");
+        height: 500px;
+        width: 100%;
+        margin-top: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    #center1{
+        background-image: url("./img/img2.jpg");
+        height: 500px;
+        width: 100%;
+        margin-top: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    #center2{
+        background-image: url("./img/img4.jpg");
+        height: 500px;
+        width: 100%;
+        margin-top: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    #right{
+        background-image: url("./img/img7.jpg");
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}  
+@media screen and (max-width: 900px) {
+    body {
+      background-color: rgb(135, 228, 212);
+    }
+    .logo{
+        text-align: center;
+        padding : 20px;
+        color: white;
+        background-color: black;
+        font-size : 35px;
+    }
+    form input{
+        margin-top : 5px;
+        margin-bottom: 5px;
+        margin-left: 25%;
+    }
+    #description{
+        background-color: rgb(12, 11, 11);
+        color: aqua;
+        border: 1px solid black;
+        padding : 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .desc1{
+        margin: 10px;
+        padding : 10px;
+    }
+    .desc2{
+        margin: 10px;
+        padding : 10px;
+    }
+    #left{
+        background-image: url("./img/i7.jpg");
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    #center1{
+        background-image: url("./img/img2.jpg");
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    #center2{
+        background-image: url("./img/img4.jpg");
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    #right{
+        background-image: url("./img/img7.jpg");
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}  
+
+#topImg{
+    width:100%;
+    margin-top: 0px;;
+}
+.launch{
+    text-align: center;
+}
+form{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#specification{
+    border: 1px solid black;
+    background-color: rgb(135, 228, 212);
+    color: black;
+}
+.specs{
+    margin: 20px;
+}
+#footImg{
+    width:100%;
+    margin-top: 5px;
+}
+footer{
+    background-color: rgb(32, 30, 30);
+    color: rgb(219, 211, 211);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
