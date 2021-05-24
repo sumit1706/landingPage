@@ -73,7 +73,7 @@ app.post("/submit",express.urlencoded({extended:false}),(req,res)=>{
       });
 });
 
-app.listen(80,()=>{
+app.listen(8080,'0.0.0.0',()=>{
     console.log('Server is running');
 });
 
