@@ -7,7 +7,7 @@ Languages and Tools :
 HTML, CSS, JavaScript, Node.js, MongoDB
 
 The project is a landing page for a laptop.
-The user registers in the website if he wants to purchase the laptop earlier than its official launch.
-His data gets saved in MongoDB.
+The user registers in the website if he wants to purchase the laptop earlier than its official launch and
+his data gets saved in MongoDB.
 
 
