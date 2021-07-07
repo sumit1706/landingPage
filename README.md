@@ -8,9 +8,6 @@ HTML, CSS, JavaScript, Node.js, MongoDB
 
 The project is a landing page for a laptop.
 The user registers in the website if he wants to purchase the laptop earlier than its official launch.
-His data also gets saved in MongoDB database.
+His data gets saved in MongoDB.
 
-/* 
-Currently not working
- **The user receives a email for his successful registration. 
-*/
+
