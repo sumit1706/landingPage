@@ -1,5 +1,6 @@
 # landingPage
  Landing Page for a laptop
+ [Deployment Link](https://rx4cf.sse.codesandbox.io/)
 
 Languages and Tools :
 HTML, CSS, JavaScript, Node.js, MongoDB
